@@ -13,7 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 $autoloader = require_once 'autoload.php';
 
-// Disable garbage collection during test runs. Under certain circumstances the
+// Disable garbage collection during test runs. Under certain circumstances 
 // update path will create so many objects that garbage collection causes
 // segmentation faults.
 require_once 'core/includes/bootstrap.inc';
